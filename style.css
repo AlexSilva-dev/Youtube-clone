@@ -1,19 +1,64 @@
 
 
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .div-cardVideo{
     width: 25%;
+    display: inline-block;
+    margin: 0.5%;
 }
 
 .img-preview{
     width: 100%;
 }
 
-.div-channel{
-    display: block;
+.div-details{
+    padding-top: 4%;
+}
+.img-channel{
+    width: 100%;
+    display: inline-block;
+    border-radius: 50%;
 }
 
-.div-descri{
+.div-channel{
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    height: 100%;
+}
+
+.div-descr{
     display: inline-block;
     
+    width: 70%;
+}
+
+.h2-title, .p-nameChannel, .p-views{
+
+    vertical-align: top;
+    width: 100%;
+    font-family: Roboto, Arial;
+    font-weight:400
+    
+}
+
+.p-nameChannel, .p-views{
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+    color: gray;
+    font-size: 90%;
+}
+
+.h2-title{
+    margin-top: 0;
+    margin-bottom: 4%;
+    
+    font-size: 100%;
+    font-weight: 700;
+
 }
